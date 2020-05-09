@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+.cards {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+
+.card {
+    margin: 25px auto;
+    width: 18rem;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.row {
+    margin-bottom: 50px;
+}
