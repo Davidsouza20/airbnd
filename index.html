@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <title>Airbnd Desafio</title>
 </head>
-<body>
+<body onload="handleFetch()">
     <div class="container">
         <h1>Airbnd Escolha seu Quarto!</h1>
 
@@ -16,7 +16,7 @@
 
         <div class="row">
             <div class="col text-center">
-                <button class="btn btn-primary button">Carregar mais!</button>
+                <button class="btn btn-primary button" onclick="handleFetch()">Carregar mais!</button>
             </div>
         </div>
     </div>
